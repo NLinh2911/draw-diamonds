@@ -5,7 +5,7 @@
 * DrawManyDiamond prints separated diamonds. There are total N*H columns
 
 **drawManyDiamond(3, 7)** 
-
+```
    *      *      *  
   * *    * *    * * 
  *   *  *   *  *   *
@@ -13,11 +13,11 @@
  *   *  *   *  *   *
   * *    * *    * *  
    *      *      * 
-
+```
 * DrawManyDiamond2 prints blended diamonds. There are total N*H - 2 columns
 
 **drawManyDiamond2(3, 7)** 
-
+```
    *     *     *   
   * *   * *   * *  
  *   * *   * *   * 
@@ -25,6 +25,7 @@
  *   * *   * *   * 
   * *   * *   * *  
    *     *     *  
+```
 
 ## Logic: take N = 3 and H = 7 and drawManyDiamond2(3, 7) for example
 * The function prints each row from left to right. 
